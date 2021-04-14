@@ -2,6 +2,15 @@
 1. 将毕业设计上传为git仓库
 2. 学会git操作指令
 
+
+git add . 
+git commit -m ""
+git push origin master
+
+git pull
+
+
+
 2021/4/13
 1. 学长找到了isetauto，研究使用
 2. 联系刘正义（等待回复）两个邮箱都已经发了中英文
