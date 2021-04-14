@@ -1,0 +1,135 @@
+
+
+2021/4/13
+1. 学长找到了isetauto，研究使用
+2. 联系刘正义（等待回复）两个邮箱都已经发了中英文
+
+3. 研究rendertoolbox安装问题，已经下载了几个git的库
+4. 研究renderbox和mpbrt生成pbrt
+现在问题：mexximp是否可以在windows运行
+
+
+2021/4/12
+
+1. cinema4d教程阅读，发现实操耗时太长，来不及
+2. 寻找pbrt的dataset，已找到部分，看是否足够（已有四十多张）
+3. 寻找把别的格式图片转换成pbrt格式的方式
+4. 相机实拍
+
+rendertoolbox4研究
+
+使用pbrtv3的场景图片，中的bmw-m6渲染成功
+步骤：修改piRecipeDefault,添加图片case
+          修改t_piIntro_start中的thisR的文件名
+         matlab中运行
+
+问题：
+1. barcelona-pavilion运行成功但是问题出现：没有显示图像
+2. 原bathroom先toilet运行失败：数组索引必须为正整数或逻辑值。
+3. cloud运行失败：索引超出数组元素的数目(15)。
+4. breakfast问题和1一样，渲染的图片只有黑色，研究具体缺了什么元素
+5. budda失败：索引超出数组元素的数目
+
+
+4/11
+毕设研究主题确定：研究自动驾驶领域的跨相机的RAW图像处理能力
+
+模拟生成raw图像的matlab toolbox 学习使用
+
+模拟生成跨相机实拍图片的软件cinema4d 学习使用
+
+生成跨相机的照片
+
+​RAW分析方法设计完成
+
+
+
+
+
+
+2021/4/11 近期安排
+
+完成毕设中期报告
+
+cinema4d软件生成模拟相机拍摄图像，学习操作
+
+​毕设论文开始撰写
+
+
+
+
+2021/4/9 方案
+
+cinema4d软件下载，通过教程学会生成3d图片导出pbrt
+
+
+https://forensic-architecture.org/investigation/experiments-in-synthetic-data
+
+1. 联系iset3d所有作者，解决flywheel问题
+2. 下载pbrt数据库，至少一两千张
+3. 手机相机实拍照片，电脑控制
+
+
+
+2021/4/6
+1. isetcam中的dngimport.m与raw有关——reading the cfa image into matlab
+2. 先找出如何把totorials里的图片导出png，过程中一定用到了pisensorimage ，把pisensorimage中的ip拦截导出raw
+
+
+安装isetcloud和scitran，运行自动驾驶demo，寻找filename
+
+C:\Users\44147\Desktop\temp\iset3d\tutorials\sceneauto
+
+API key
+
+
+
+
+
+1. 阅读完成20210311，研究是否可以使用该软件（完成）
+
+2. 20210312是一个网上链接，学习（已下载pdf）
+
+
+
+2021/3/15
+毕设任务安排
+1. iset3d 流程过一遍
+2. isetCam 研究函数
+3. isetBio 研究人眼成像的质量区别
+引申：能否解决特斯拉装上白色卡车问题，因为RGB域中，白色和天空很难区分，在RAW中区别会大一些
+
+
+1. docker.exe添加到环境变量中，然后重启matlab
+2. matlab把docker文件夹中的文件添加到路径中
+
+
+安装simulink在matlab中 2021/3/22，没用
+
+
+
+git使用方法：
+1. 到git的项目中folk到sudoHao
+2. 登录git.nju.edu.cn
+3. 在your projects中import这个project，等到running完成
+4. 直接在windows terminal中在对应文件夹中git clone
+5. 如果有更新，在对应文件夹中git pull
+
+
+2021/3/24
+问题可能的解决方式：3d 的master分支没有最更新，dev里有更新的文件，要pull下来
+
+
+ git checkout -b submodule origin/submodule 下载submodule分支到本地且命名为submodule 
+
+git branch 查看当下所有本地分支
+git checkout master 切换到master 分支
+
+
+
+2021/3/29
+1. 通过把iset3d分支改为dev解决之前跑不通的问题
+2. 学习论文，搞明白如何输出render前的CMOS图像（两周内）
+3. 开始写毕业论文
+
+3. 

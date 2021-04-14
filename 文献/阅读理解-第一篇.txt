@@ -1,0 +1,17 @@
+软件：ISETAuto
+
+
+ISET3d： render PBRT files into isetcam (or isetbio) scenes and optical images
+ ISET3d will be used as a toolbox (library) on the user's path; the user's project will be in a separate repository.
+
+
+SUMO 已安装
+
+任务：
+1. 安装MATLAB 南大版本（已下载未安装）
+2. 安装iset3d
+3. 学习：
+	1. PBRT是什么
+	2. iset3d怎么安装
+4. 
+
