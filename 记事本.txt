@@ -1,8 +1,9 @@
 2021/4/16
-1. 安装https://github.com/lgsvl/simulator，应该可以做CMOS的模拟
+1. 安装https://github.com/lgsvl/simulator，应该可以做CMOS的模拟(已经安装好)
 2. 安装完后学长写代码
 3. 按照复现论文写毕设
-
+4. SVL 账号：邮箱171180566@smail.nju.edu.cn; 密码441475708
+Unity用户名：MaChenhao 密码Ma441475708
 
 
 2021/4/15
