@@ -8,3 +8,40 @@
 
 
 致谢一面
+
+
+复现论文：
+一、 背景介绍
+
+S.J.D. Prince. Computer Vision: Models Learning and Inference. Cambridge University Press, 2012
+CV
+[15] algorithms mimic the cortical process of human visual system (HVS) to perceive the colors 
+
+[3] Digital cameras have separated the imaging sensor and the ISP to enable different functionality 
+
+This conventional paradigm has been massively deployed in existing large-scale image/video analytic infrastructure, such as event detection
+and traffic monitoring [19].
+
+ ultra low-latency applications since delay is inevitably introduced by the serial transformations in the ISP module [13].
+
+Taking an On-semi ISP ( https://www.onsemi.com/) chip as an example, it requires approximately 0.033s to transform 
+an input RAW image to its corresponding RGB representation,
+ which is nearly 33% of the response time and imposes a critical impact in applications.
+
+follow the CycleGAN [23] architecture to well capture the crossdomain characteristics. 
+
+二、 本工作的贡献
+
+1. 第一个sensor RAW image dataset with high-level detection and segmentation labels
+与[21][2]这些low-level denoising 和KITTI raw images 不同
+
+2. achieves comparable accuracy to the native solutions that use RGB images, while reducing latency and power consumption since our RAW-domain
+processing completely bypasses the ISP
+
+
+三、 相关工作
+主要是关于ISP和RAW image processing
+1. 
+
+
+
