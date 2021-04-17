@@ -1,3 +1,9 @@
+2021/4/17
+1. simulator clone release-2020.06后删除Library，启动Unity成功出现了simulator
+
+
+
+
 2021/4/16
 1. 安装https://github.com/lgsvl/simulator，应该可以做CMOS的模拟(已经安装好)
 2. 安装完后学长写代码
