@@ -162,37 +162,39 @@ This paper will show how well RAW image will play in image processing and how we
    \label{fig:style}
 \end{figure}
 
-\section{相关工作}
+\section{本文工作和贡献}
 
 作为深度神经网络中处理序列的一个重要模型，循环神经网络，如图，在训练和测试过程中不需要知道视觉序列对象中每个元素的位置。但是，对于循环神经网络，非常重要的一点是将输入图片通过图片预处理转化为一串图片特征\cite{graves2009novel,su2014accurate}。但是通常的基于循环卷积神经网络的网络，因为预处理不在系统训练流程之内，所以无法用从头到尾的方式进行训练，不是很方便。
 
+%
+%\section{本文主要工作}
+%本文旨在对图片级手写中文文本做出识别分类。主要工作如下：
+%\begin{enumerate}
+%\item 在标准公开数据集里获得了一定的识别准确度。
+%
+%\item 在标准公开数据集上击败了一些相关工作的结果。
+%
+%\item 建立分本分行规划表格，很好地处理了文本的分行，降低了训练开销。
 
-\section{本文主要工作}
-本文旨在对图片级手写中文文本做出识别分类。主要工作如下：
-\begin{enumerate}
-\item 在标准公开数据集里获得了一定的识别准确度。
-
-\item 在标准公开数据集上击败了一些相关工作的结果。
-
-\item 建立分本分行规划表格，很好地处理了文本的分行，降低了训练开销。
-
-\end{enumerate}
+%\end{enumerate}
 \section{本文结构}
 本文的各章节组织结构如下：
 
-第一章：绪论。简要说明了手写中文文本识别的研究来由及相关工作。并概括地描述了这篇文章的工作，总结了本文结构。
+第一章：绪论。简要说明计算机视觉领域RAW域与RGB域图像研究背景并概括地描述了这篇文章的工作，总结了本文结构。
 
-第二章：识别系统
+第二章：相关工作。概括介绍了传统ISP和RAW图像处理的相关工作。
 
-第三章：实验。介绍了实验进行的配置环境，文中使用的测度，文本分行的结果，识别的结果并分析了得到这种结果背后的缘由。
+第三章：研究方法。详细介绍本课题进行研究所使用的方法和原理。
 
-第四章：总结与讨论。总结全文工作，讨论存在的问题和今后可以继续研究的方向。
+第四章：实验。详细介绍本课题在RAW域进行视觉任务研究的使用工具和实验过程。
 
-\chapter{系统}\label{chapter_system}
+第五章：总结和讨论。
+
+\chapter{相关工作}\label{chapter_system}
 
 怎么使用这个模板
 
-\section{图片}
+\section{传统ISP}
 
 一行一图，如图\ref{fig:line}
 \begin{figure}[htbp]
@@ -243,7 +245,7 @@ This paper will show how well RAW image will play in image processing and how we
 \newpage %为了将图片实例放在一起，另起一页，使用时请删掉
 
 
-\section{公式}
+\section{RAW图像处理}
 
 \begin{equation}
 \frac{\partial L}{\partial a_{k}^t} = {d(s)}^2 (y_{k}^t - \frac{\sum_{lab(\mathbf{l},k)} \alpha_t(s)\beta_t(s) }{y_{k}^t} )
@@ -274,46 +276,48 @@ d_{{ij}}&={\begin{cases}d_{{i-1,j-1}}&{\text{for}}\;a_{{j}}=b_{{i}}\\\min {\begi
 \right.
 \end{equation}
 
-\section{表格}
 
-\begin{table}[htbp]
-\setlength{\belowcaptionskip}{7pt}
-  \centering
-\begin{tabular}{|c|c|c|c|c|c|c|c|c|c|}
-\hline 
-  &   & 国 & 内 & 企 & 业 & 包 & 括 & 许 & 多 \\ 
-\hline 
-  & 0 & 1 & 2 & 3 & 4 & 5 & 6 & 7 & 8 \\ 
-\hline 
-国 & 1 & 0 & 1 & 2 & 3 & 4 & 5 & 6 & 7 \\ 
-\hline 
-著 & 2 & 1 & 1 & 2 & 2 & 3 & 4 & 5 & 6 \\ 
-\hline
-\end{tabular} 
-\vspace{0.2cm}
-  \caption{编辑距离（乐文斯汀距离计算过程示例表格。字符串``国内企业包括许多''与``国著名括许多''乐文斯汀距离是3。}\label{table:ld}
-\end{table}
+%
+%\section{表格}
+%
+%\begin{table}[htbp]
+%\setlength{\belowcaptionskip}{7pt}
+%  \centering
+%\begin{tabular}{|c|c|c|c|c|c|c|c|c|c|}
+%\hline 
+%  &   & 国 & 内 & 企 & 业 & 包 & 括 & 许 & 多 \\ 
+%\hline 
+%  & 0 & 1 & 2 & 3 & 4 & 5 & 6 & 7 & 8 \\ 
+%\hline 
+%国 & 1 & 0 & 1 & 2 & 3 & 4 & 5 & 6 & 7 \\ 
+%\hline 
+%著 & 2 & 1 & 1 & 2 & 2 & 3 & 4 & 5 & 6 \\ 
+%\hline
+%\end{tabular} 
+%\vspace{0.2cm}
+%  \caption{编辑距离（乐文斯汀距离计算过程示例表格。字符串``国内企业包括许多''与``国著名括许多''乐文斯汀距离是3。}\label{table:ld}
+%\end{table}
 
+%
+%\section{算法}
 
-\section{算法}
+%\begin{algorithm}
+%\caption{Beam Search}
+%\label{alg:beam}
+%\begin{algorithmic}[1]
+%\STATE {将初始节点插入到集束中。} 
+%\WHILE{遍历未结束}
+%\STATE {遍历集束中所有节点的后续节点。} 
+%\IF{该节点是目标节点}
+%\STATE {算法结束。}
+%\ELSE 
+%\STATE {扩展该节点，取集束宽度的节点入堆。}
+%\ENDIF
+%\ENDWHILE
+%\end{algorithmic}
+%\end{algorithm}
 
-\begin{algorithm}
-\caption{Beam Search}
-\label{alg:beam}
-\begin{algorithmic}[1]
-\STATE {将初始节点插入到集束中。} 
-\WHILE{遍历未结束}
-\STATE {遍历集束中所有节点的后续节点。} 
-\IF{该节点是目标节点}
-\STATE {算法结束。}
-\ELSE 
-\STATE {扩展该节点，取集束宽度的节点入堆。}
-\ENDIF
-\ENDWHILE
-\end{algorithmic}
-\end{algorithm}
-
-集束宽度可以在搜索过程中保持为一个定值，也可以根据搜索的进行而变化。搜索算法可以根据搜索的结果进行调整，比如，当以一个小的集束宽度搜索解却无法找到适合解的时候，可以增大集束宽度重新进行一次搜索。
+%集束宽度可以在搜索过程中保持为一个定值，也可以根据搜索的进行而变化。搜索算法可以根据搜索的结果进行调整，比如，当以一个小的集束宽度搜索解却无法找到适合解的时候，可以增大集束宽度重新进行一次搜索。
 
 
 
