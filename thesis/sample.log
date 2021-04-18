@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018/W32TeX) (preloaded format=xelatex 2019.4.20)  18 APR 2021 11:42
+This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018/W32TeX) (preloaded format=xelatex 2019.4.20)  18 APR 2021 14:48
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1471,35 +1471,40 @@ Package natbib Warning: Citation `baiduapi' on page 7 undefined on input line 35
 
 ]
 {第\CJKnumber {4}章} 4.
-No file sample.bbl.
 [9] [10
+
+]
+{第\CJKnumber {5}章} 5.
+[11] [12
+
+] [13] [14
 
 ] 
 AED: lastpage setting LastPage
-[11]
+[15]
 
 Package natbib Warning: There were undefined citations.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 377.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 377.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 426.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 426.
 (./sample.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 377.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 377.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 426.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 426.
 Package rerunfilecheck Info: File `sample.out' has not changed.
-(rerunfilecheck)             Checksum: 8EBB811227611EF3CEC6D6A4F25DBB80.
+(rerunfilecheck)             Checksum: C83B960C568D9A7E1A9E424BED4D4DD5.
 
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 377.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 426.
  ) 
 Here is how much of TeX's memory you used:
- 32641 strings out of 492933
- 610347 string characters out of 6136537
- 766630 words of memory out of 5000000
- 36114 multiletter control sequences out of 15000+600000
+ 32683 strings out of 492933
+ 612058 string characters out of 6136537
+ 770185 words of memory out of 5000000
+ 36157 multiletter control sequences out of 15000+600000
  566775 words of font info for 200 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  53i,23n,81p,2061b,700s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on sample.pdf (17 pages).
+Output written on sample.pdf (21 pages).
