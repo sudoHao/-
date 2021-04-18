@@ -11,6 +11,24 @@
 
 
 一摘要
+This work explores the feasibility to directly execute high-level vision tasks using the raw sensor data (i.e., RAW image), by which we can completely bypass the Image Signal Processor (ISP) devised in digital cameras for decades. Due to the lack of large-scale RAW image datasets to train
+robust RAW-domain vision models, we have developed a generative adversarial network (GAN) to transform existing abundant JPEG compressed RGB images to corresponding RAW-domain representations. We have also collected and labelled a small-scale RAW image dataset dedicated
+for high-level detection and segmentation tasks. Experiments demonstrate the competitive efficiency of RAW-domain object detection and semantic segmentation over the conventional paradigm using RGB images. In addition, performing vision tasks using RAW images removes the need for ISP, which makes it attractive for devices and applications with stringent power and latency constraints. 
+
+
+
+本文探讨了使用原始的传感器数据（即RAW图像）直接执行高级视觉任务的可行性。通过这种方法，我们可以避开数十年来在相机拍摄于图像处理中涉及到的图像信号处理过程（ISP）。由于缺乏用以训练RAW域视觉模型的大规模RAW图像数据集，我们开发了一种生成对抗网络（GAN），可以将大量的压缩成JPEG格式的RGB图像转换为对应的RAW域图像以此获得大规模RAW图像数据集。我们还收集并标记了专用的小规模RAW图像数据集用于高级检测和分割任务。经实验证明，与使用RGB图像进行视觉处理相比，RAW域的图像处理在对象检测和语义分割方面具有明显优势。另外一个优点是，使用RAW图像执行视觉任务消除了对图像信号处理过程（ISP）的需求，优化了功耗和时延方面的问题。
+
+
+
+
+
+
+
+
+
+
+
 二目录安排：
 1. 绪论
 1.1 研究背景（原文的intro）
