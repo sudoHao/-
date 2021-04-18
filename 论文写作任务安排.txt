@@ -10,6 +10,45 @@
 致谢一面
 
 
+一摘要
+二目录安排：
+1. 绪论
+1.1 背景介绍（原文的intro）
+1.2 本文工作和贡献
+1.3 本文结构
+
+2. 相关工作
+2.1 传统ISP 基础
+2.2 RAW 图像处理
+
+3. 研究方法
+3.1 问题方程
+3.2 invISP
+3.3 RAW域视觉任务
+3.4 Loss Function
+
+4 实验
+4.1 数据集
+4.2 训练细节
+4.3 结果
+
+5 总结和讨论
+
+致谢
+
+参考文献
+
+
+
+
+
+
+
+
+
+
+
+
 复现论文：
 一、 背景介绍
 
@@ -42,6 +81,11 @@ processing completely bypasses the ISP
 三、 相关工作
 主要是关于ISP和RAW image processing
 1. 
+2. RAW： recent years have shown a number
+of explorations on RAW image processing [10, 2, 21, 1].
+3. Inverse：inverse ISP functions to reversely transform the existing abundant RGB images into corresponding RAW samples [10, 21, 2, 4, 14]. But most algorithms like “reverse
+imaging pipeline” (a.k.a., InvGamma) [10] only utilized the
+inverse gamma correction to simulate the nonlinear function and overlooked other important no
 
 
 
