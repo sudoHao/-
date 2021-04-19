@@ -1,4 +1,4 @@
-
+url = https://github.com/sudoHao/Graduation-Thesis.git
 3. 摘要中文版完成，英文版修改后提交
 
 git remote set-url origin https://github.com/sudoHao/Graduation-Thesis.git
