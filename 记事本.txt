@@ -1,3 +1,8 @@
+140.82.112.4 github.com
+199.232.69.194 github.global.ssl.fastly.net
+
+
+
 url = https://github.com/sudoHao/Graduation-Thesis.git
 3. 摘要中文版完成，英文版修改后提交
 
