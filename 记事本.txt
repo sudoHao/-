@@ -1,7 +1,7 @@
 
 3. 摘要中文版完成，英文版修改后提交
 
-
+git remote set-url origin https://github.com/sudoHao/Graduation-Thesis.git
 2021/4/18
 1. 毕业论文目录安排，绪论开写
 2. git config --global https.proxy http://127.0.0.1:1080
