@@ -110,14 +110,20 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % 论文的英文摘要
 \begin{englishabstract}
-Nowadays computer vision(CV) is a hot issue in the artificial intelligence(AI) world. 
-It is a major which focuses on how to make machines see just like human beings. 
-Researchers use cameras and computers instead of human eyes to do tasks like segmentation, classification and so on for future CV use.
 
 As a scientific study, computer vision tries to set up the way between image or multi-dimensional data and artificial intelligence.
 
-The main contents of this paper is about the computer vision work used in autonomous driving. 
-By analyzing the RAW images simulated from powerful simulating softwares in vision aspect, the work tries to optimize the process of image processing in autonomous driving.
+This paper mainly discusses the way and possibility to directly execute 
+high-level vision tasks using the raw sensor data. By performing CV tasks in this way, we 
+can completely ignore the Image Signal Processor (ISP) used in digital cameras recently. 
+
+Due to the lack of RAW image datasets for training robust RAW-domain vision models, 
+our team have developed a generative adversarial network (GAN) to transform existing abundant JPEG 
+compressed RGB images to RAW-domain images. 
+We have also collected and labelled a small-scale RAW-domain image dataset for high-level object detection and segmentation tasks. 
+
+Our experiments showed the fact that RAW-domain images have competitive efficiency in object detection and semantic segmentation over the conventional RGB images. 
+Meanwhile, performing vision tasks using RAW images removes the latency and power caused by ISP.
 
 This paper will show how well RAW image will play in image processing and how well computer vision can do for autonomous driving and for everyone.
 
